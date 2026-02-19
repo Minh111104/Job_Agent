@@ -6,7 +6,7 @@ const EnvSchema = z.object({
   REDIS_URL: z.string().url().describe("Redis connection string"),
   API_PORT: z.coerce.number().default(4000),
   LOG_LEVEL: z.string().optional(),
-  ASI_API_KEY: z.string().optional()
+  ASI_API_KEY: z.string().min(1, "ASI_API_KEY is required — get yours at https://asi1.ai")
 });
 
 const parsed = EnvSchema.safeParse(process.env);
