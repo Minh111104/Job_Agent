@@ -40,7 +40,6 @@ Next.js (app router) + Postgres + Redis multi-agent system that discovers roles,
 Meta, Google, Amazon, Microsoft, Apple, Netflix, Datadog, Stripe, Snowflake, Chime, OpenAI, Anthropic, NVIDIA, Intel, Greenhouse, LinkedIn Jobs, Indeed, Wellfound, YC Jobs, Simplify Jobs, Levels.fyi Jobs, GitHub Jobs.
 
 ## Next Steps
-- Fill KB files under `kb/` with truthful data; rebuild embeddings once stored.
 - Add migrations (Drizzle/Prisma/sql) for the schema above.
 - Flesh out Scout → Normalize → FitScore → Materials → Compliance workers; hook asi:one tools.
 - Build Inbox + Job detail pages consuming API; surface approval gates and activity timeline.
