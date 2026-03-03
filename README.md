@@ -30,7 +30,7 @@ Next.js (app router) + Postgres + Redis multi-agent system that discovers roles,
    - Worker: `pnpm dev:worker`
 5) Apply DB migrations: `pnpm --filter api migrate` (runs SQL in `packages/shared/src/db/migrations`)
 
-## Data Model (draft)
+## Data Model
 - `job_postings` (source, company, title, level, location, visa_sponsorship, description_raw/structured, apply_url, date_posted/discovered, status, fit_score, reasoning, risks, raw_snapshot_url)
 - `applications` (job_id, resume_version_id, cover_letter_id, qa_answers_id, submission_date, current_stage, next_followup_date, contact, activity_log)
 - `resume_versions` (base_resume_hash, target_role, tailored_bullets, file_url)
