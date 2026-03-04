@@ -1,3 +1,33 @@
 # Only metrics that are verified and safe to reuse in drafting.
 allowed_metrics:
-  - "TODO: increasing data coverage by 60% through advanced pagination and recursive extraction logic"
+  
+  # Performance / scale
+  - "1,200+ concurrent queries (P95 < 300 ms)"
+  - "vector search over 10K+ financial documents"
+
+  # Data processing / experimentation
+  - "simulating 80+ trading strategies across 100+ backtesting sessions"
+
+  # Crawling / data coverage
+  - "extracting data from 50+ government contracts daily"
+  - "increasing data coverage by 60% through advanced pagination and recursive extraction logic"
+
+  # Infrastructure / efficiency
+  - "reduced manual setup time by 80% through repeatable AWS infrastructure provisioning"
+
+  # NLP / research
+  - "processing 500+ unique legal queries"
+  - "improved legal NLP accuracy by 25%"
+
+  # API development
+  - "built 10+ FastAPI endpoints"
+
+  # IT systems / operations
+  - "supported 50+ classrooms"
+  - "ensured uptime for 100+ devices"
+  - "supporting 10+ academic departments"
+
+  # Event leadership
+  - "organized a hackathon with 50+ participants"
+  - "secured $2,000 in sponsorship"
+  - "designed 3 competition tracks"

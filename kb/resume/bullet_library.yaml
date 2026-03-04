@@ -1,2 +1,57 @@
 # Reusable bullet fragments that can be tailored per role; keep grounded in base resume.
-- "TODO: Implemented X using Y resulting in Z (verified metric)."
+
+# Backend / API Engineering
+- Implemented scalable backend APIs using FastAPI and Python to support AI-driven analytics workflows.
+- Built 10+ REST API endpoints integrating PostgreSQL and Redis for efficient data access.
+- Designed backend services using Flask and Python to process large-scale document datasets.
+- Engineered backend logic supporting vector search over 10K+ financial documents using pgvector.
+- Developed API services enabling real-time analytics and trading strategy simulations.
+
+# AI / Machine Learning Systems
+- Developed AI-powered analytics pipelines using TensorFlow, LangChain, and Python.
+- Implemented LLM-based sentiment analysis pipelines for financial market intelligence.
+- Built machine learning workflows using Pandas, NumPy, and TensorFlow for financial strategy evaluation.
+- Designed AI systems performing semantic retrieval across large document corpora.
+- Integrated LLM pipelines with backend services to extract insights from structured and unstructured datasets.
+
+# Distributed Systems / Infrastructure
+- Containerized backend services using Docker and Kubernetes to support scalable workloads.
+- Designed distributed processing pipelines using Kafka market streams for real-time data ingestion.
+- Built cloud-native data pipelines using AWS services including S3, DynamoDB, and SQS.
+- Provisioned cloud infrastructure using AWS Amplify CLI to support scalable application deployment.
+- Designed CI/CD-ready data workflows to automate data ingestion and processing.
+
+# Data Engineering
+- Processed large-scale financial datasets using Pandas and NumPy to support analytics pipelines.
+- Built data pipelines for document ingestion, indexing, and retrieval.
+- Automated metadata extraction and storage workflows using DynamoDB and S3.
+- Implemented vector-based search pipelines over large document collections.
+
+# Web Crawling / Data Collection
+- Developed automated web crawling workflows using Playwright to extract government contract data.
+- Implemented pagination and recursive extraction logic for structured data collection.
+- Built automated scraping pipelines collecting 50+ government contracts daily.
+- Designed crawling systems feeding downstream machine learning pipelines.
+
+# DevOps / Cloud Engineering
+- Provisioned application infrastructure using AWS Amplify CLI for reproducible environments.
+- Built cloud-native pipelines integrating S3, DynamoDB, and SQS messaging services.
+- Implemented container-based deployments using Docker and Kubernetes orchestration.
+- Designed CI/CD-ready backend services supporting automated data processing.
+
+# Research / NLP Systems
+- Built an NLP-driven legal Q&A system using Python and LangChain.
+- Implemented transformer-based models for Vietnamese legal document understanding.
+- Processed 500+ legal queries using machine learning-driven retrieval pipelines.
+- Improved document comprehension using ANN models and transformer fine-tuning.
+
+# Systems / IT Engineering
+- Delivered rapid diagnostics and troubleshooting across 50+ classroom AV systems.
+- Supported enterprise IT infrastructure used by 10+ academic departments.
+- Collaborated with system administrators to standardize software images and deployment workflows.
+- Implemented GitHub Actions-based workflows to streamline software deployment.
+
+# Leadership / Engineering Collaboration
+- Led organization of a 50+ participant university hackathon including track design and sponsorship.
+- Coordinated engineering and logistics across student teams and sponsors.
+- Designed hackathon tracks focused on AI/ML, sustainability, and healthcare technology.
