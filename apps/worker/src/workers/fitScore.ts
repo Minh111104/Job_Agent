@@ -10,8 +10,7 @@
  */
 import type { Job } from "bullmq";
 import pino from "pino";
-import { createPostgresClient } from "@shared/db/clients";
-import { asi } from "@shared/asi";
+import { createPostgresClient, asi } from "shared";
 import { kb } from "../kb.js";
 import { materialsQueue } from "../queues.js";
 

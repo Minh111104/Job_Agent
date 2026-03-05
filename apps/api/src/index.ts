@@ -2,8 +2,7 @@ import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import pino from "pino";
-import { createPostgresClient, createRedisClient } from "@shared/db/clients";
-import { env } from "@shared/env";
+import { createPostgresClient, createRedisClient, env } from "shared";
 
 const app = express();
 const logger = pino({ level: env.LOG_LEVEL ?? "info" });

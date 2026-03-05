@@ -12,8 +12,7 @@
  */
 import type { Job } from "bullmq";
 import pino from "pino";
-import { createPostgresClient } from "@shared/db/clients";
-import { asi } from "@shared/asi";
+import { createPostgresClient, asi } from "shared";
 import { kb } from "../kb.js";
 
 const logger = pino({ level: process.env.LOG_LEVEL ?? "info" });

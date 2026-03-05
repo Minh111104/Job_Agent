@@ -1,6 +1,6 @@
 import "dotenv/config";
 import { Queue } from "bullmq";
-import { createRedisClient } from "@shared/db/clients";
+import { createRedisClient } from "shared";
 
 const connection = createRedisClient();
 

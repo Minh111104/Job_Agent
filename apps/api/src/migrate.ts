@@ -1,7 +1,7 @@
+import "dotenv/config";
 import { readFileSync, readdirSync } from "fs";
 import path from "path";
-import { createPostgresClient } from "@shared/db/clients";
-import { env } from "@shared/env";
+import { createPostgresClient, env } from "shared";
 
 async function main() {
   const pool = createPostgresClient();
