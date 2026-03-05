@@ -14,7 +14,7 @@ export const createPostgresClient = () => {
 export const createRedisClient = () => {
   if (redisClient) return redisClient;
   redisClient = new Redis(env.REDIS_URL, {
-    maxRetriesPerRequest: 2,
+    maxRetriesPerRequest: null,
     enableOfflineQueue: false
   });
   return redisClient;
